@@ -1,31 +1,6 @@
 ## Rent-A-Ride: Online Car Rental System
-Table of Contents
 
-    Introduction
-
-    Features
-
-    Technology Stack
-
-    System Architecture
-
-    Installation Guide
-
-    Usage Instructions
-
-    Database Schema
-
-    Design Patterns Used
-
-    Testing
-
-    Screenshots
-
-    Contributing
-
-    License
-
-Introduction
+## Introduction
 
 Rent-A-Ride is a full-stack web-based car rental management platform that allows users to search, book, and review cars available for rent. The system is designed for efficiency, scalability, and ease of use for both end-users and administrators.
 Features
@@ -48,7 +23,7 @@ Features
 
     Secure JWT-based session management
 
-Technology Stack
+## Technology Stack
 Frontend:
 
     HTML5, CSS3, JavaScript
@@ -65,7 +40,7 @@ Database:
 
     MySQL 8.x
 
-Other Tools:
+## Other Tools:
 
     SQLAlchemy ORM
 
@@ -75,7 +50,7 @@ Other Tools:
 
     Jinja2 (templating)
 
-System Architecture
+## System Architecture
 
     Frontend:
     Uses HTML/CSS and JavaScript for rendering dynamic and responsive user interfaces.
@@ -86,7 +61,7 @@ System Architecture
     Database:
     MySQL stores all data, including users, cars, bookings, and reviews.
 
-Installation Guide
+## Installation Guide
 Prerequisites:
 
     Python 3.x
@@ -95,7 +70,7 @@ Prerequisites:
 
     pip (Python package installer)
 
-Steps:
+## Steps:
 
 Create and Activate Virtual Environment:
 
@@ -148,7 +123,7 @@ For Admins:
 
     Manage registered users
 
-Database Schema (Simplified)
+## Database Schema (Simplified)
 
     Users: user_id, name, email, password, role
 
@@ -158,13 +133,14 @@ Database Schema (Simplified)
 
     Reviews: review_id, user_id, car_id, rating, comment, timestamp
 
-Design Patterns Used
+## Design Patterns Used
 Pattern	Purpose
 Singleton	Ensures single instance of DB connection
 Factory	Creates car objects with shared structure
 Observer	Manages event-driven notifications
 Strategy	Implements flexible pricing strategies
-Testing
+
+## Testing
 
     Unit Testing: PyTest used for user and booking modules
 
@@ -174,7 +150,7 @@ Testing
 
     Performance Testing: Using Locust for concurrency simulation# Software-Project
 
-Screenshots
+## Screenshots
 ![Screenshot 2025-06-12 231823](https://github.com/user-attachments/assets/ef96f980-4b22-4bb1-9336-f0cc199127d0)
 
 ![Screenshot 2025-06-12 231901](https://github.com/user-attachments/assets/3132a981-5371-4586-b6a0-5d943887a194) 

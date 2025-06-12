@@ -3,7 +3,8 @@
 ## Introduction
 
 Rent-A-Ride is a full-stack web-based car rental management platform that allows users to search, book, and review cars available for rent. The system is designed for efficiency, scalability, and ease of use for both end-users and administrators.
-Features
+
+## Features
 
     User registration and authentication
 
